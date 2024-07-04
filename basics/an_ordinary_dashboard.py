@@ -4,6 +4,8 @@ import pandas as pd
 from sklearn.datasets import load_diabetes
 import matplotlib.pyplot as plt
 
+st.set_page_config(layout="wide")
+
 st.title("An Ordinary Dashboard")
 st.write("Welcome to an Ordinary Dashboard! 🥳")
 
